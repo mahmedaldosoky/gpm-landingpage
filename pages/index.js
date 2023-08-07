@@ -124,18 +124,68 @@ export default function Home() {
 
           <div class="mt-12 space-y-8">
             <FAQCard
-              question="Question 1"
-              answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              question="What is GPM?"
+              answer="GPM is a social media app that provides a dedicated platform for users to create personal or business profiles in less than two minutes. It's a space designed to connect like-minded professionals and individuals, fostering meaningful connections and opportunities to expand networks."
               isOpened=""
             ></FAQCard>
+
             <FAQCard
-              question="Question 2"
-              answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              question="How do I create a profile on GPM?"
+              answer="Creating a profile on GPM is quick and easy! Simply download the app from your app store, sign up with your email or social media account, and follow the guided steps to set up your personalized profile."
               isOpened=""
             ></FAQCard>
+
             <FAQCard
-              question="Question 3"
-              answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              question="Is GPM free to use?"
+              answer="Yes, creating and using a profile on GPM is completely free. We believe in providing equal opportunities for all users to connect and engage without any subscription fees."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="Can I use GPM for personal and business purposes?"
+              answer="Absolutely! GPM caters to both personal and business users. Whether you're an individual looking to build a personal network or a business aiming to expand your brand, GPM offers a versatile platform to fulfill your needs."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="What benefits does GPM offer?"
+              answer="By joining GPM, you gain access to a range of benefits. These include connecting with like-minded professionals, discovering new opportunities, and accessing exclusive discounts on selected products."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="How can I find and connect with others on GPM?"
+              answer="GPM's user-friendly interface makes it easy to discover and connect with others. You can search for specific users, explore recommended profiles, or connect with people you already know via their GPM usernames."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="Are there any privacy and security measures on GPM?"
+              answer="Absolutely. At GPM, we take user privacy and security seriously. Your data and personal information are protected through robust security measures, and you have full control over your profile's privacy settings."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="Can I promote my business on GPM?"
+              answer="Yes, you can promote your business through your GPM profile. Share updates, products, or services with your network to reach potential customers and engage with your audience."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="How can I report inappropriate content or users?"
+              answer="GPM is committed to maintaining a positive and safe community. If you come across any inappropriate content or users, you can easily report them through the app, and our team will take appropriate action."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="How can I contact GPM support for assistance?"
+              answer="For any questions or support-related inquiries, you can reach out to our customer support team directly through the app's contact feature or visit our website's support section."
+              isOpened=""
+            ></FAQCard>
+
+            <FAQCard
+              question="Can I access GPM from multiple devices?"
+              answer="Yes, you can access GPM from multiple devices, including smartphones and tablets. Simply log in with your account credentials, and your profile will be synced across all your devices."
               isOpened=""
             ></FAQCard>
           </div>
