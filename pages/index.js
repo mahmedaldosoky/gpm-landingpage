@@ -107,11 +107,56 @@ export default function Home() {
             Roadmap
           </h2>
           <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-5 justify-items-center lg:px-10 content-center  ">
-            <RoadMapPahse title="Q1" color="bg-[#7EFFC1]"></RoadMapPahse>
-            <RoadMapPahse title="Q2" color="bg-[#FFAA5B]"></RoadMapPahse>
-            <RoadMapPahse title="Q3" color="bg-[#A689FB]"></RoadMapPahse>
-            <RoadMapPahse title="Q4" color="bg-[#FDEC58]"></RoadMapPahse>
-            <RoadMapPahse title="Q5" color="bg-[#638FFF]"></RoadMapPahse>
+            {/* <RoadMapPahse todoList={['asd','asc']} title="Q1" color="bg-[#7EFFC1]"></RoadMapPahse>
+            <RoadMapPahse todoList={[]} title="Q2" color="bg-[#FFAA5B]"></RoadMapPahse>
+            <RoadMapPahse todoList={[]} title="Q3" color="bg-[#A689FB]"></RoadMapPahse>
+            <RoadMapPahse todoList={[]} title="Q4" color="bg-[#FDEC58]"></RoadMapPahse>
+            <RoadMapPahse todoList={[]} title="Q5" color="bg-[#638FFF]"></RoadMapPahse> */}
+            <RoadMapPahse
+              todoList={[
+                "Vision and Goals",
+                "Wireframes and Design",
+                "Content Sharing",
+              ]}
+              title="Q1"
+              color="bg-[#7EFFC1]"
+            ></RoadMapPahse>
+
+            <RoadMapPahse
+              todoList={["User Feedback", "Optimize Performance"]}
+              title="Q2"
+              color="bg-[#FFC17E]"
+            ></RoadMapPahse>
+
+            <RoadMapPahse
+              todoList={[
+                "Multi-platform Launch",
+                "Server Scaling",
+                "Community Engagement",
+              ]}
+              title="Q3"
+              color="bg-[#7EAAFF]"
+            ></RoadMapPahse>
+
+            <RoadMapPahse
+              todoList={[
+                "Revenue Strategies",
+                "Business Profiles",
+                "Brand Collaborations",
+              ]}
+              title="Q4"
+              color="bg-[#FF7E7E]"
+            ></RoadMapPahse>
+
+            <RoadMapPahse
+              todoList={[
+                "Continuous Feedback",
+                "Messaging & Calling",
+                "Emerging Tech",
+              ]}
+              title="Q5"
+              color="bg-[#D67EFF]"
+            ></RoadMapPahse>
           </div>
         </div>
       </div>
@@ -156,36 +201,6 @@ export default function Home() {
             <FAQCard
               question="How can I find and connect with others on GPM?"
               answer="GPM's user-friendly interface makes it easy to discover and connect with others. You can search for specific users, explore recommended profiles, or connect with people you already know via their GPM usernames."
-              isOpened=""
-            ></FAQCard>
-
-            <FAQCard
-              question="Are there any privacy and security measures on GPM?"
-              answer="Absolutely. At GPM, we take user privacy and security seriously. Your data and personal information are protected through robust security measures, and you have full control over your profile's privacy settings."
-              isOpened=""
-            ></FAQCard>
-
-            <FAQCard
-              question="Can I promote my business on GPM?"
-              answer="Yes, you can promote your business through your GPM profile. Share updates, products, or services with your network to reach potential customers and engage with your audience."
-              isOpened=""
-            ></FAQCard>
-
-            <FAQCard
-              question="How can I report inappropriate content or users?"
-              answer="GPM is committed to maintaining a positive and safe community. If you come across any inappropriate content or users, you can easily report them through the app, and our team will take appropriate action."
-              isOpened=""
-            ></FAQCard>
-
-            <FAQCard
-              question="How can I contact GPM support for assistance?"
-              answer="For any questions or support-related inquiries, you can reach out to our customer support team directly through the app's contact feature or visit our website's support section."
-              isOpened=""
-            ></FAQCard>
-
-            <FAQCard
-              question="Can I access GPM from multiple devices?"
-              answer="Yes, you can access GPM from multiple devices, including smartphones and tablets. Simply log in with your account credentials, and your profile will be synced across all your devices."
               isOpened=""
             ></FAQCard>
           </div>
