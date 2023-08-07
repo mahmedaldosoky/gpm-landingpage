@@ -323,7 +323,7 @@ export default function Home() {
 
           <div>
             <p class="text-center text-gray-500 text-gray-400">
-              © GPM 2022 - All rights reserved
+              © GPM 2023 - All rights reserved
             </p>
           </div>
         </div>
